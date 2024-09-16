@@ -3,7 +3,7 @@ Get your module up and running quickly.
 
 Find and replace all on all files (CMD+SHIFT+F):
 - Name: My Plugin
-- Package name: gabortorma/mwm-nitro-plugin-template
+- Package name: gt-packages/t6
 - Description: My new Nitro plugin
 -->
 
@@ -17,13 +17,13 @@ Find and replace all on all files (CMD+SHIFT+F):
 My new Nuxt module for doing amazing things.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-  <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/mwm-nitro-plugin-template?file=playground%2Fapp.vue) -->
+  <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/t6?file=playground%2Fapp.vue) -->
   <!-- - [📖 &nbsp;Documentation](https://example.com) -->
 
 ## Install
 
 ```bash
-pnpm install add -D mwm-nitro-plugin-template
+pnpm install add -D t6
 ```
 
 ## Usage
@@ -35,7 +35,7 @@ Add the plugin to your `nuxt.config.js`:
 ```ts
 export default defineNuxtConfig({
   nitro: {
-    plugins: ['@gabortorma/mwm-nitro-plugin-template']
+    plugins: ['@gt-packages/t6']
   }
 })
 ```
@@ -46,7 +46,7 @@ Add the plugin to your `nitro.config.js`:
 
 ```ts
 export default defineNitroConfig({
-  plugins: ['@gabortorma/mwm-nitro-plugin-template']
+  plugins: ['@gt-packages/t6']
 })
 ```
 
@@ -83,11 +83,11 @@ npm run release
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/@gabortorma/mwm-nitro-plugin-template/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/@gabortorma/mwm-nitro-plugin-template
-[npm-downloads-src]: https://img.shields.io/npm/dm/@gabortorma/mwm-nitro-plugin-template.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/@gabortorma/mwm-nitro-plugin-template
-[license-src]: https://img.shields.io/npm/l/@gabortorma/mwm-nitro-plugin-template.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/@gabortorma/mwm-nitro-plugin-template
+[npm-version-src]: https://img.shields.io/npm/v/@gt-packages/t6/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/@gt-packages/t6
+[npm-downloads-src]: https://img.shields.io/npm/dm/@gt-packages/t6.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/@gt-packages/t6
+[license-src]: https://img.shields.io/npm/l/@gt-packages/t6.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/@gt-packages/t6
 [code-style-src]: https://antfu.me/badge-code-style.svg
-[code-style-href]: https://github.com/gabortorma/antfu-eslint-config
+[code-style-href]: https://github.com/gt-packages/antfu-eslint-config
